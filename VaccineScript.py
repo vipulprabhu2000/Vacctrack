@@ -36,6 +36,7 @@ def availability():
         if((each_data['available_capacity'] > 0) & (each_data['min_age_limit'] == 45)):
             counter = +1
             print(each_data['name'])
+            
             print(each_data['pincode'])
             print(each_data['vaccine'])
             print(each_data['available_capacity'])
